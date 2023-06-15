@@ -5,6 +5,16 @@
 }
 
 .home-section {
+  .field-wrapper {
+    position: relative;
+    .err {
+      color: #ff7979;
+      position: absolute;
+      top: 38%;
+      left: 93%;
+    }
+  }
+
   background-image: url("../../images/Group\ 5.png");
   background-size: cover;
   display: flex;
